@@ -47,5 +47,16 @@ export async function fetchFilteredInvoices(
   query: string,
   currentPage: number,
 ) {
-  return [];
+  return [
+    {
+      id: '1',
+      customer_id: '1',
+      amount: 250,
+      date: '2024-01-01',
+      status: 'pending',
+      name: 'John Doe',
+      email: 'john@example.com',
+      image_url: '/customers/amy-burns.png',
+    },
+  ];
 }

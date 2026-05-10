@@ -42,3 +42,7 @@ export async function fetchRevenue() {
     { month: 'Dec', revenue: 5000 },
   ];
 }
+
+export async function fetchFilteredInvoices() {
+  return [];
+}

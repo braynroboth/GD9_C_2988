@@ -43,6 +43,9 @@ export async function fetchRevenue() {
   ];
 }
 
-export async function fetchFilteredInvoices() {
+export async function fetchFilteredInvoices(
+  query: string,
+  currentPage: number,
+) {
   return [];
 }

@@ -60,3 +60,7 @@ export async function fetchFilteredInvoices(
     },
   ];
 }
+
+export async function fetchInvoicesPages(query: string) {
+  return 1;
+}
